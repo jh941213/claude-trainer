@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Training outputs (large files)
+outputs/
+eval_results/
+data/raw/
+data/formatted/
+data/teacher/
+data/student_outputs/
+
+# IPC
+.ipc/
+
+# Logs
+AUDIT.log
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Claude Code
+.active-agents
+.active-agents.lock
+.active-agents.tmp
